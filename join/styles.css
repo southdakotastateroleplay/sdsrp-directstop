@@ -4,6 +4,20 @@ body {
     margin: 50px;
 }
 
+header {
+    position: relative;
+}
+
+#go-home-link {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
 h1 {
     font-size: 36px;
 }
